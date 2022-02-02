@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Shadow of the deads Over';
+    src: url('./fonts/ShadowofthedeadsOver.woff2') format('woff2'),
+        url('./fonts/ShadowofthedeadsOver.woff') format('woff'),
+        url('./fonts/ShadowofthedeadsOver.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shadow of the deads Under';
+    src: url('./fonts/ShadowofthedeadsUnder.woff2') format('woff2'),
+        url('./fonts/ShadowofthedeadsUnder.woff') format('woff'),
+        url('./fonts/ShadowofthedeadsUnder.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.layeredText {
+    position: relative;
+    width: 725px;
+    height: auto;
+    margin: 0 auto;
+}
+
+h1 {
+    display: block;
+	font-family:'Shadow of the deads Over';
+	color: #c7614d;
+	margin-left:.5em;
+    letter-spacing: .1em;
+    font-size: 5em;
+}
+
+h1::before {
+	position: absolute;
+    top:0;
+	left:0;
+	margin-left:.5em;
+	content: attr(text);
+	font-family:'Shadow of the deads Under';
+	color:black;
+    letter-spacing: .1em;
+}
+
+h1::after {
+	position: absolute;
+    top:0;
+	left:0;
+	margin-left:.5em;
+	content: attr(text);
+	font-family: 'Shadow of the deads Over';
+	color: #c7614d;
+    letter-spacing: .1em;
+}
+
+
+body {
+    background-color: #443835;
+}
+
+h2 {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    color: #f3eec7;
+}
+
+#intro {
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #f3eec7;
+    font-feature-settings: "ss01" 1;
+}
+
+#snippet {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
