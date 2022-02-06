@@ -28,6 +28,9 @@
     font-style: normal;
     font-display: swap;
 }
+#nameOuter {
+    position: relative;
+}
 
 .layeredText {
     position: relative;
