@@ -25,7 +25,7 @@ body {
 
 #header h2 {
     font-family: 'Creepster', cursive;
-    font-size: 8em !important;
+    font-size: 7em !important;
     color:#c7614d !important;
     text-shadow: 5px 5px black;
     letter-spacing: .1em;
@@ -52,15 +52,43 @@ body {
     text-shadow: 2px 2px black;
 }
 
-h2 { 
+section {
+    padding-top: 50px;
+}
+
+
+section h2 { 
     font-family: 'Creepster', cursive;
     font-size: 5em !important;
     color:#c7614d !important;
     text-shadow: 3px 3px black;
     letter-spacing: .1em;
     overflow-wrap: break-word;
+    padding-bottom: 50px;
 }
 
+.credential {
+    font-family: 'Spartan', sans-serif;
+    color: #f3eec7;
+}
+
+.credential .location {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.credential .credential-date {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.credential .credential-description {
+    max-width: 700px;
+}
+
+#education .credential-divider {
+    border-color: #c7614d;
+}
 
 /* LOTS OF NAVBAR STUFF */
 #navbar {
