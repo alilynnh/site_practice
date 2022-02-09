@@ -1,3 +1,4 @@
+// Vanta Fog Animation
 VANTA.FOG({
     el: "#landing",
     mouseControls: true,
@@ -12,3 +13,24 @@ VANTA.FOG({
     speed: 2.00,
     zoom: 0.90
 })
+
+// Sliding Navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+
+// Mobile Navbar Option
+function expansion() {
+    var x = document.getElementById("navbar");
+    if (x.className === "") {
+      x.className += " expanded";
+    } else {
+      x.className = "";
+    }
+}

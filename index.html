@@ -5,39 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ali Herington</title>
+
     <!-- Bootstrap -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Spartan:wght@400;500;700;900&display=swap" rel="stylesheet">
+
     <!-- Vanta Animated Background -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
     
     <!-- CSS  -->
     <link href="assets/css/styles.css" type="text/css" rel="stylesheet"/>
-    <!-- javascript -->
-
-
 </head>
 
 <body>
+    <!-- Navbar -->
+    <div id="navbar">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#connect">Connect</a>
+        <a href="javascript:void(0);" class="icon" onclick="expansion()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Header -->
     <div class="jumbotron jumbotron-fluid text-center" style= "background-color:transparent !important" id="landing"> 
-        <div class="container" id="header">
-            <h1 class="col-xs-12 text-center">INTRODUCING</h2>
-            <h2 class="col-xs-12 text-center ">ALI HERINGTON</h1>
-            <h3 class="col-xs-12 text-center">Data Analyst & Lifelong Learner</h3>
+        <div class="container text-center" id="header">
+            <h1 class="col-12">INTRODUCING</h2>
+            <h2 class="col-12">ALI HERINGTON</h1>
+            <h3 class="col-12">Data Analyst & Lifelong Learner</h3>
         </div>
         <div class="container text-center" id="enter">
-            <a href="#portfolio">ENTER</a>
+            <a href="#projects">ENTER</a>
         </div>
     </div>
-    <div class="container" id="portfolio">
+
+    <!-- Projects Section -->
+    <div class="container" id="projects">
         <div class="row">
-            <h2 class="col-xs-12 text-center">Portfolio</h1>
+            <h2 class="col-12 text-center">PROJECTS</h1>
         </div>
     </div>
+
+    <!-- Skills Section -->
+    <div class ="container" id="skills">
+        <div class="row">
+            <h2 class="col-12 text-center">SKILLS</h2>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="container" id="education">
+        <div class="row">
+            <h2 class="col-12 text-center">EDUCATION</h2>
+        </div>
+    </div>
+
+    <!-- Connect Section -->
+    <div class="container" id="connect">
+        <div class="row">
+            <h2 class="col-12 text-center">CONNECT</h2>
+        </div>
+    </div>
+
+    <!-- Scripts -->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
