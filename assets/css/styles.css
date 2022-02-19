@@ -100,13 +100,24 @@ i {
     z-index: 4;
 }
 
+.image3 {
+    float: right;
+    margin-left: 1100px;
+    margin-top: 115px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 4;
+}
+
 img {
     width: 200px;
     height: auto;
 }
 
 @media (max-width: 787px) {
-    #education .image2 {
+    #education .image2,
+    #projects .image3 {
       display: none;
     }
 }
@@ -137,6 +148,27 @@ img {
 
 #education .credential-divider {
     border-color: #c7614d;
+}
+
+#connect p {
+    font-family: 'Spartan', sans-serif;
+    color: #f3eec7;
+}
+
+#contact-icons {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+#connect a {
+    font-size: 3em;
+    color: #f3eec7;
+}
+
+#connect a:hover {
+    font-size: 3em;
+    color: #c7614d;
+    text-decoration-line: none;
 }
 
 /* LOTS OF NAVBAR STUFF */
