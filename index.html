@@ -44,9 +44,11 @@
     <!-- Header -->
     <div class="jumbotron jumbotron-fluid text-center" style= "background-color:transparent !important" id="landing"> 
         <div class="container text-center" id="header">
-            <h1 class="col-12">INTRODUCING</h2>
-            <h2 class="col-12">ALI HERINGTON</h1>
-            <h3 class="col-12">Data Analyst & Lifelong Learner</h3>
+            <div class="row">
+                <h1 class="col-12">INTRODUCING</h2>
+                <h2 class="col-12">ALI HERINGTON</h1>
+                <h3 class="col-12">Data Analyst & Lifelong Learner</h3>
+            </div>
         </div>
         <div class="container text-center" id="enter">
             <a href="#projects">ENTER</a>
@@ -55,12 +57,131 @@
 
     <!-- Projects Section -->
     <section id="projects">
-        <div class="container" id="project-grid">
-            <div class="image3">
+        <div class="container">
+            <div class="image3" id="fly">
                 <img src="assets/css/img/fly-trans.png" alt="fly">
             </div>
             <div class="row">
                 <h2 class="col-12 text-center">PROJECTS</h1>
+            </div>
+            <div class="row">
+                <p class="col-12 text-center" id="swipe">Swipe to view more.</p>
+            </div>
+            <div class="d-flex flex-row flex-nowrap text-center" id="project-cards">
+                <div class="card m-3 p-3 text-wrap">
+                    <img src="./Assets/css/img/neural.png" class="card-img-top" alt="neural-network-charity">
+                    <div class="card-body pb-3">
+                        <h5 class="card-title pt-2">Neural Network Charity Analysis</h5>
+                        <p class="card-text">A neural network model for predicting which organizations would be successful
+                            if funded by the non-profit "Alphabet Soup".</p>
+                        <p class="card-text"><b>Technologies Used:</b> Python, Pandas, scikit-learn, TensorFlow
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline-dark"><a href="https://github.com/alilynnh/Neural_Network_Charity_Analysis" target="_blank">See the Code</a></button>
+                    </div>
+                </div>
+                <div class="card m-3 p-3 text-wrap">
+                    <img src="./Assets/css/img/crypto.png" class="card-img-top" alt="cryptocurrencies">
+                    <div class="card-body pb-3">
+                        <h5 class="card-title pt-2">Cryptocurrencies</h5>
+                        <p class="card-text">An unsupervised machine learning model that was used to determine possible groupings
+                            of cryptocurrencies.</p>
+                        <p class="card-text"><b>Technologies Used:</b> Python, Pandas, Plotly, scikit-learn
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                      <button class="btn btn-outline-dark"><a href="https://github.com/alilynnh/Cryptocurrencies" target="_blank">See the Code</a></button>
+                    </div>
+                </div>
+                <div class="card m-3 p-3 text-wrap">
+                    <img src="./Assets/css/img/mecha-car.png" class="card-img-top" alt="mecha-car-analysis">
+                    <div class="card-body pb-3">
+                        <h5 class="card-title pt-2">MechaCar Statistical Analysis</h5>
+                        <p class="card-text">A statistical analysis done to provide insights to the manufacturing team 
+                            of the MechaCar.</p>
+                        <p class="card-text"><b>Technologies Used:</b> R
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline-dark"><a href="https://github.com/alilynnh/MechaCar_Statistical_Analysis" target="_blank">See the Code</a></button>
+                    </div>
+                </div>
+                <div class="card m-3 p-3 text-wrap">
+                    <img src="./Assets/css/img/bikesharing.png" class="card-img-top" alt="bikesharing">
+                    <div class="card-body pb-3">
+                        <h5 class="card-title pt-2">Bike Sharing</h5>
+                        <p class="card-text">Data visualizations created for a business proposal to bring a bike sharing program
+                            to Des Moines.</p>
+                        <p class="card-text"><b>Technologies Used:</b> Python, Pandas, Tableau
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline-dark"><a href="https://github.com/alilynnh/bikesharing" target="_blank">See the Code</a></button>
+                    </div>
+                </div>
+                <div class="card m-3 p-3 text-wrap">
+                    <img src="./Assets/css/img/earthquakes.png" class="card-img-top" alt="mapping-earthquakes">
+                    <div class="card-body pb-3">
+                        <h5 class="card-title pt-2">Mapping Earthquakes</h5>
+                        <p class="card-text">A dashboard that displays global earthquake data and tectonic plate boundaries.</p>
+                        <p class="card-text"><b>Technologies Used:</b> JavaScript, HTML, CSS, Leaflet, D3, Mapbox</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline-dark"><a href="https://github.com/alilynnh/Mapping_Earthquakes" target="_blank">See the Code</a></button>
+                    </div>
+                </div>
+                <div class="card m-3 p-3 text-wrap">
+                    <img src="./Assets/css/img/ufos.gif" class="card-img-top" alt="ufos">
+                    <div class="card-body pb-3">
+                        <h5 class="card-title pt-2">UFOs</h5>
+                        <p class="card-text">A dashboard that displays UFO data which the user can filter on multiple
+                            criteria simultaneously.</p>
+                        <p class="card-text"><b>Technologies Used:</b> JavaScript, HTML, CSS, D3, Bootstrap
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline-dark"><a href="https://github.com/alilynnh/UFOs" target="_blank">See the Code</a></button>
+                    </div>
+                </div>
+                <div class="card m-3 p-3 text-wrap">
+                    <img src="./Assets/css/img/mars.gif" class="card-img-top" alt="mission-to-mars">
+                    <div class="card-body pb-3">
+                        <h5 class="card-title pt-2">Mission to Mars</h5>
+                        <p class="card-text">A web application that collects and displays information about Mars.</p>
+                        <p class="card-text"><b>Technologies Used:</b> Python, HTML, MongoDB, Flask, BeautifulSoup, Splinter
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline-dark"><a href="https://github.com/alilynnh/Mission-to-Mars" target="_blank">See the Code</a></button>
+                    </div>
+                </div>
+                <div class="card m-3 p-3 text-wrap">
+                    <img src="./Assets/css/img/pewlett-hackard.png" class="card-img-top" alt="pewlett-hackard">
+                    <div class="card-body pb-3">
+                        <h5 class="card-title pt-2">Pewlett Hackard Analysis</h5>
+                        <p class="card-text">An analysis to determine the number of retiring employees and eligible mentors
+                            at the organization "Pewlett Hackard".</p>
+                        <p class="card-text"><b>Technologies Used:</b> PostgreSQL
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline-dark"><a href="https://github.com/alilynnh/Pewlett-Hackard-Analysis" target="_blank">See the Code</a></button>
+                    </div>
+                </div>
+                <div class="card m-3 p-3 text-wrap">
+                    <img src="./Assets/css/img/stock-analysis.png" class="card-img-top" alt="stock-analysis">
+                    <div class="card-body pb-3">
+                        <h5 class="card-title pt-2">Stock Analysis</h5>
+                        <p class="card-text">An excel workbook that can compute the annual volume and return for stocks with the click
+                            of a button.</p>
+                        <p class="card-text"><b>Technologies Used:</b> Excel, VBA
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline-dark"><a href="https://github.com/alilynnh/Stock-Analysis" target="_blank">See the Code</a></button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -68,8 +189,8 @@
     <!-- Skills Section -->
     <section id="skills">
         <div class ="container" id="skills-grid">
-            <div class="image">
-                <img src="assets/css/img/one-eye-trans.png" alt="arms">
+            <div class="image" id="one-eye">
+                <img src="assets/css/img/one-eye-trans.png" alt="one-eye">
             </div>
             <div class="row">
                 <h2 class="col-12 text-center">SKILLS</h2>
@@ -131,8 +252,8 @@
                 </p>
             </div>
             <hr class="credential-divider" />
-            <div class="image2 d-xs-none">
-                <img src="assets/css/img/alien-trans.png" alt="arms">
+            <div class="image2 d-xs-none" id="alien">
+                <img src="assets/css/img/alien-trans.png" alt="alien">
             </div>
             <div class="credential">
                 <h3 class="location">
